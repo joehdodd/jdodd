@@ -1,0 +1,27 @@
+{
+  "name": "joehdodd.github.io",
+  "version": "1.0.0",
+  "description": "Joe_Dodd_Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joehdodd/joehdodd.github.io.git"
+  },
+  "keywords": [
+    "gulp",
+    "responsive_image"
+  ],
+  "author": "JoeDodd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joehdodd/joehdodd.github.io/issues"
+  },
+  "homepage": "https://github.com/joehdodd/joehdodd.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-responsive-images": "0.0.3"
+  }
+}
