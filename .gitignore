@@ -1,5 +1,5 @@
 mail/
 
-*manifest.json
-*package.json
-*Gulpfile.js
+manifest.json
+package.json
+Gulpfile.js
