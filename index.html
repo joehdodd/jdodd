@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="eng">
-
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <title>Chattanooga Web Developer | Joe Dodd</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer | Joe Dodd</title>
     <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
@@ -15,7 +14,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -61,7 +60,7 @@
                 <img class="avatar img-responsive img-circle" src="img/joe-dodd-avatar.jpg" riot-srcset="img/joe-dodd-avatar_small.jpg 1x, img/joe-dodd-avatar_med.jpg 2x, img/joe-dodd-avatar_large 3x" alt="Joe Dodd">
             </div>
     </section>
-    <main>
+<main>
         <!--BEGIN MAIN CONTENT-->
         <section id="about">
             <div class="container">
@@ -74,9 +73,9 @@
         </section>
         <section id="featured-work">
             <div class="container">
-                <div class="row work-heading">
+                <div class="row">
                     <div class="col-sm-12">
-                        <h2 class="text-muted">Featured Work</h2>
+                        <h2 class="text-muted work-heading">Featured Work</h2>
                     </div>
                 </div>
                 <hr>
@@ -84,34 +83,45 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h3>THAT TEXT 1</h3>
-                        <p class="featured-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-                        <p class="featured-link">joedodd.co</p>
+                        <h3 class="work-heading">Web App Dashboard</h3>
+                        <p class="featured-text">The challenge was to build a mock web app dashboard following a mockup. Tasks included adding JavaScript functionality, along with mock charts and graphs using the Chart.js plugin.</p>
+                        <p class="featured-link"><a href="https://joehdodd.github.io/webappdashboard/">Live</a><br><a href="https://github.com/joehdodd/webappdashboard">GitHub Repo</a></p>
                     </div>
                     <div class="col-sm-6">
-                        <img class="img-responsive" src="img/clouds-field.jpg" riot-srcset="img/clouds-field_small.jpg 1x, img/clouds-field_med.jpg 2x, img/clouds-field_large 3x" alt="Field">
+                        <img class="img-responsive" src="img/webapp.png" alt="Web App Screenshot">
                     </div>
                 </div>
                 <hr>
                 <div class="row">
                     <div class="col-sm-6 col-sm-push-6">
-                        <h3>THAT TEXT 2</h3>
-                        <p class="featured-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-                        <p class="featured-link">joedodd.co</p>
+                        <h3 class="work-heading">Interactive Video Player</h3>
+                        <p class="featured-text">For this project, I built an app using vanilla JavaScript that highlights text captions while a corresponding video plays. As well, I added functionality that allows a user to click on any piece of text to move the playhead to that point in time.</p>
+                        <p class="featured-link"><a href="https://joehdodd.github.io/interactivevideoplayer">Live</a><br><a href="https://github.com/joehdodd/interactivevideoplayer">GitHub Repo</a></p>
                     </div>
                     <div class="col-sm-6 col-sm-pull-6">
-                        <img class="img-responsive" src="img/clouds-field.jpg" riot-srcset="img/clouds-field_small.jpg 1x, img/clouds-field_med.jpg 2x, img/clouds-field_large 3x" alt="Field">
+                        <img class="img-responsive" src="img/videoplayer.png" alt="Video Player Screenshot">
                     </div>
                 </div>
                 <hr>
                 <div class="row">
                     <div class="col-sm-6">
-                        <h3>THAT TEXT 3</h3>
-                        <p class="featured-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-                        <p class="featured-link">joedodd.co</p>
+                        <h3 class="work-heading">Sass Refactor</h3>
+                        <p class="featured-text">Using Sass, the CSS pre-processor, I refactored quite a large CSS file. Sass is amazing.</p>
+                        <p class="featured-link"><a href="http://github.com/joehdodd/sassrefactor">GitHub Repo</a></p>
                     </div>
                     <div class="col-sm-6">
-                        <img class="img-responsive" src="img/clouds-field.jpg" riot-srcset="img/clouds-field_small.jpg 1x, img/clouds-field_med.jpg 2x, img/clouds-field_large 3x" alt="Field">
+                        <img class="img-responsive" src="img/sassrefactor.png" alt="Sass Refactor">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6 col-sm-push-6">
+                        <h3 class="work-heading">Portfolio Page</h3>
+                        <p class="featured-text">No holds barred for this project, so I decided to use the Bootstrap framework to familiarize myself with what it can do. As such a prolific framework, I felt it was important to know how to use it well.</p>
+                        <p class="featured-link"><a href="https://github.com/joehdodd/XXXX">GitHub Repo</a></p>
+                    </div>
+                    <div class="col-sm-6 col-sm-pull-6">
+                        <img class="img-responsive" src="img/portfoliopage.png" alt="Portfolio Page Screenshot">
                     </div>
                 </div>
             </div>
@@ -146,22 +156,14 @@
                     </div>
                 </div>
             </div>
-            </footer>
-    </main>
-
+            </section>
+</main>
     <!--Hosted JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!--Bootstrap JS-->
+    <script src="js/bootstrap.min.js"></script>
     <!--Custom JS-->
     <script src="js/joehdodd.js"></script>
-    <!--Bootstrap JS-->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!--jQuery-->
-    <script src="jquery/jquery-3.1.1.min.js"></script>
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
 </body>
-
 </html>
