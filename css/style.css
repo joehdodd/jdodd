@@ -51,7 +51,6 @@ hr {
 
 .navbar-nav > li {
     float: left;
-    font-size: 15px;
 }
 
 .banner {
@@ -174,6 +173,14 @@ main {
     height: 400px;
   }
 
+  .navbar-brand {
+    font-size: 1.5em;
+  }
+
+  .nav-item {
+    font-size: 1.05em;
+  }
+
   .about-text {
     font-size: 1.5em;
   }
@@ -184,6 +191,14 @@ main {
 
   .banner {
     height: 500px;
+  }
+
+  .navbar-brand {
+    font-size: 2em;
+  }
+
+  .nav-item {
+    font-size: 1.25em;
   }
 
   #about {
