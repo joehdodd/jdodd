@@ -108,27 +108,27 @@ main {
 }
 
 .about-text {
-    font-size: 1.15em;
-    line-height: 1.25em;
+  font-size: 1.15em;
+  line-height: 1.25em;
 }
 
 .featured-text {
-     color: #5a5a5a;
+   color: #5a5a5a;
 }
 
 .featured-link {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .pre-footer {
-    height: 75px;
-    margin-top: 10px;
+  height: 75px;
+  margin-top: 10px;
 }
 
 .pre-footer-inner {
-    text-align: left;
-    vertical-align: bottom;
-    padding-top: 30px;
+  text-align: left;
+  vertical-align: bottom;
+  padding-top: 30px;
 }
 
 #footer {
@@ -136,19 +136,19 @@ main {
 }
 
 .footer-inner {
-    text-align: left;
-    vertical-align: middle;
-    padding-top: 5px;
-    padding-bottom: 25px;
-    line-height: 2em;
+  text-align: left;
+  vertical-align: middle;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  line-height: 2em;
 }
 
 .btn-social-icon {
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-    color: #000;
-    background-color: #fff;
-    border: none;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  color: #000;
+  background-color: #fff;
+  border: none;
 }
 
 @media only screen and (min-width: 360px) {
