@@ -152,7 +152,7 @@ main {
     border: none;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 360px) {
 
   .work-heading {
     font-size: 1.5em;
